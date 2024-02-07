@@ -1,0 +1,29 @@
+.container1{
+    margin-top: 0px;
+    height: 450px;
+    background-color: var(--bg);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.title{
+    font-weight: 300;
+    color: var(--textSoft);
+    margin-bottom: 50px;
+}
+
+.container2{
+    
+    height: 450px;
+    background-color: var(--bg);
+    padding: 20px;
+    border-radius: 10px;
+}
+.customtooltip{
+    color:var(--bg-main-orange);
+    font-style: italic;
+}
+.label{
+    font-weight: bold;
+}

@@ -1,0 +1,25 @@
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--bg);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #cacaca;
+    box-shadow: 0 4px 4px 0 rgba(152, 152, 152, 0.2), 0 2px 4px 0 rgba(1, 2, 97, 0.19);
+  }
+  
+  .input {
+    background-color: transparent;
+    border:none;
+    color: var(--text);
+    font-style: italic;
+  }
