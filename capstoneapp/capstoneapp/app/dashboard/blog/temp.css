@@ -1,0 +1,76 @@
+
+.view__container{
+    padding: 20px; /* 1.25rem */
+    margin-top: 24px; /* 1.5rem */
+    margin-bottom: 24px; /* 1.5rem */
+    border-radius: 8px; /* 0.5rem */
+    width: 100%;
+    max-width: 768px; /* 48rem */
+    background-color: #f9f9f9;
+    box-shadow: 0 16px 48px 0 rgba(0, 0, 0, 0.1),
+      0 16px 32px 0 rgba(0, 0, 0, 0.06);
+  }
+  .views {
+    margin-bottom: 20px; /* Space between sections */
+  }
+  
+  
+  .viewsmobile, .slug, .viewdes, .viewcontent {
+    background-color: #ffffff; /* White background for content areas */
+    padding: 15px; /* Spacing inside each content area */
+    margin-bottom: 20px; /* Space between content areas */
+    border: 1px solid #e0e0e0; /* Border around content areas */
+    border-radius: 8px; /* Rounded corners for content areas */
+  }
+  
+  .viewdescontent {
+    color: #666; /* Medium grey for paragraph text */
+    line-height: 1.6; /* Space between lines of text */
+  }
+  
+  /* Specific styles for the title content area */
+  .viewbtitlecontent {
+    background-color: #eef2ff; /* Light blue background for title area */
+  }
+  
+  /* Specific styles for the slug content area */
+  .viewbslugcontent {
+    background-color: #efffe9; /* Light green background for slug area */
+  }
+  
+  /* Specific styles for the blog content area */
+  .viewbcontent {
+    background-color: #fffbea; /* Light yellow background for content area */
+  }
+  
+  .viewdescontent{
+    background-color: #fce7ff;
+    padding: 15px; /* Add padding to create space inside the container */
+    word-wrap: break-word; /* Prevents long words from overflowing */
+    overflow: hidden; /* Ensures content does not spill out */
+  }
+  /* Responsive image styles within the blog content area */
+  .viewbcontent img {
+    max-width: 100%; /* Make sure the image is not wider than the container */
+    height: auto; /* Scale the height automatically to maintain the aspect ratio */
+    display: block; /* Optional: to remove extra space below the image */
+    margin: 0 auto; /* Center the image if it's smaller than the container */
+  }
+  
+  .viewbcontent *,
+  .viewbcontent *:before,
+  .viewbcontent *:after {
+    /* Reset margins and padding for all elements inside .viewbcontent */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and borders are included in the total width and height */
+  }
+  
+  /* Specific styles for lists and paragraphs, if needed */
+  .viewbcontent ul,
+  .viewbcontent ol,
+  .viewbcontent p {
+    margin-left: 20px; /* Add some left margin for lists */
+    margin-bottom: 10px; /* Add some bottom margin for spacing between paragraphs and list items */
+  }
+  

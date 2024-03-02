@@ -10,6 +10,13 @@
   border-radius: 10px;
 }
 
+/* Hide .menu (Sidebar) on mobile screens */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+}
+
 .content {
   flex: 4;
   padding: 20px;

@@ -1,0 +1,26 @@
+.table {
+    table-layout: fixed;
+    width: 100%;
+    font-size: smaller;
+    border-collapse: collapse;
+  }
+
+.tr:hover {
+    background-color: #fce5d7;
+    background-color: #ffffff;
+}
+
+.thead{
+    font-weight: bold;
+    background-color: #d5d8e4;
+    height: 50px;
+}
+
+.td{
+    padding: 15px;
+    width: 50% ;
+}
+
+.gridMargin{
+    padding: 15PX;
+}

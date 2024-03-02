@@ -3,62 +3,10 @@ import MenuLink from "./menuLink/menuLink.jsx";
 import Image from "next/image.js";
 import Link from "next/link";
 import styles from "./sidebar.module.css";
+import menuItems from "./menuLink/menuItems.jsx"
 import {
-  MdDashboard,
-  MdSupervisedUserCircle,
-  MdOutlineTask,
-  MdEventAvailable,
-  MdWork,
-  MdAnalytics,
-  MdPeople,
-  MdOutlineSettings,
-  MdHelpCenter,
   MdLogout,
 } from "react-icons/md";
-const menuItems = [
-  {
-    title: "Pages",
-    list: [
-      {
-        subtitle: "Dashboard",
-        path: "/dashboard",
-        icon: <MdDashboard />,
-      },
-      {
-        subtitle: "Users",
-        path: "/dashboard/users",
-        icon: <MdSupervisedUserCircle />,
-      },
-      // {
-      //   subtitle: "Tasks",
-      //   path: "/dashboard/tasks",
-      //   icon: <MdOutlineTask />,
-      // },
-      // {
-      //   subtitle: "Events",
-      //   path: "/dashboard/events",
-      //   icon: <MdEventAvailable />,
-      // },
-    ],
-  },
-  {
-    title: "User",
-    list: [
-      // {
-      //   subtitle: "Settings",
-      //   path: "/dashboard/settings",
-      //   icon: <MdOutlineSettings />,
-      // },
-      {
-        subtitle: "Help",
-        path: "/dashboard/help",
-        icon: <MdHelpCenter />,
-      },
-      
-    ],
-  },
-];
-
 
 const Sidebar = () => {
   return (
