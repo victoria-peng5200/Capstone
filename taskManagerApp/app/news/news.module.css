@@ -1,0 +1,37 @@
+.container {
+    background-color: var(--bg);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image{
+    width: 100%;
+    margin-top: 30px;
+  }
+  
+  .text{
+    font-size: 32px;
+    padding: 10px;
+  }
+
+  .word {
+    margin: auto;
+    padding: 15px;
+    font: 650 normal 2rem 'tahoma';
+    background: linear-gradient(
+      45deg,
+      rgb(7, 87, 235) 10%,
+      rgb(194, 62, 255) 56%,
+      rgba(0, 184, 255, 1) 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; /* Make the text color transparent to show the gradient */
+    -webkit-text-fill-color: transparent; /* For WebKit browsers */
+  
+    /* Adjusted shadow to be a bit grayer */
+    text-shadow: 0 4px 4px rgba(128, 128, 128, 0.2), 0 2px 16px rgba(128, 128, 128, 0.19);
+  }

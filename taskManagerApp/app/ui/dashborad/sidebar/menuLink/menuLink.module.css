@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  margin: 5px 0px;
+}
+
+.container:hover,
+.active {
+  background: rgb(0, 60, 199);
+  background: linear-gradient(
+    45deg,
+    rgba(0, 60, 199, 1) 0%,
+    rgba(0, 123, 255, 1) 56%,
+    rgba(0, 184, 255, 1) 100%
+  );
+  color: var(--bg);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container:not(:hover) {
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .container {
+    color: rgb(27, 27, 27);
+    font-size: small;
+    border-radius: 10px;
+    margin-left: 30px;
+  }
+}

@@ -1,0 +1,144 @@
+.container {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  color: var(--textSoft);
+  font-weight: bold;
+  text-transform: capitalize;
+  align-items: flex-end;
+}
+
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--bg);
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #cacaca;
+  box-shadow: 0 4px 4px 0 rgba(152, 152, 152, 0.2),
+    0 2px 4px 0 rgba(1, 2, 97, 0.19);
+}
+
+.input {
+  background-color: transparent;
+  border: none;
+  color: var(--text);
+}
+
+.image {
+  padding: 0;
+  object-fit: cover;
+  border: none;
+  margin-right: 10px;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+}
+
+/* Dropdown Menu styles */
+/* Set the mobile menu icon to not display by default */
+.icons .mobileMenuIcon {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .icons .mobileMenuIcon {
+    display: flex;
+  }
+}
+
+.dropdownMenu {
+  display: flex;
+  flex-direction: column;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    45deg,
+    rgba(238, 174, 202, 0.92) 0%,
+    rgba(181, 199, 218, 0.92) 51%,
+    rgba(148, 187, 233, 0.92) 100%
+  );
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: absolute; /* Position it absolutely relative to its positioned parent */
+  top: 0; /* Align to the top edge of the parent element */
+  right: 0; /* Align to the right edge of the parent element */
+  z-index: 100; /* Ensure it stacks on top of other content */
+  width: 100%;
+  padding-block: 5rem, 4rem;
+  transition: top 0.3s ease; /* Smooth transition for the top property */
+  font-weight: bold;
+}
+
+.list {
+  list-style: none;
+}
+
+/* This style will be applied when isDropdownOpen is false */
+.dropdownMenuHidden {
+  top: -100%; /* Moves the dropdown menu off the top of the screen */
+}
+.logout {
+  display: flex;
+  align-items: center; /* This centers the items vertically */
+  justify-content: center; /* This centers the items horizontally */
+  gap: 10px; /* This adds 10px of space between each flex item */
+  padding: 15px;
+margin-bottom: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: none;
+  width: 100%;
+  font: bold;
+  color: rgb(54, 54, 54);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.logout:hover {
+  background-color: #005dc1;
+  font-weight: bold;
+  color: white;
+  }
+  .hi{
+    width: 100%;
+  }
+
+  .item{
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .counter{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+  }

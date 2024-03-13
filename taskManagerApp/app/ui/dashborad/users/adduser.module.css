@@ -1,0 +1,45 @@
+.container {
+  background-color: var(--bgSoft);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form input,
+.form textarea,
+.form select {
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid #aca8a8;
+  background-color: rgb(241, 241, 241);
+  color: var(--text);
+  font-size: medium;
+  font-style: italic;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form input,
+.form select {
+  width: 48%;
+}
+
+.form textarea {
+  width: 100%;
+}
+
+.form button {
+  padding: 8px 15px;
+  background: var(--textSoft);
+  color: var(--bg);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

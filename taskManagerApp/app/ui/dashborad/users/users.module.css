@@ -1,0 +1,99 @@
+.container {
+  background-color: var(--bg);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.addButton {
+  padding: 10px;
+}
+.bouncy {
+  animation: bouncy 3s infinite linear;
+  position: relative;
+}
+
+@keyframes bouncy {
+  0% {
+    left: 0em;
+  }
+  40% {
+    left: 0em;
+  }
+  43% {
+    left: -0.8em;
+  } /* Move left */
+  46% {
+    left: 0em;
+  }
+  48% {
+    left: 0.2em;
+  } /* Move right */
+  50% {
+    left: 0em;
+  }
+  100% {
+    left: 0em;
+  }
+}
+
+.table {
+  table-layout: auto;
+  width: 100%;
+  font-size: smaller;
+  border-collapse: collapse;
+}
+
+.table tr:hover {
+  background-color: var(--bgSoft);
+}
+
+.table thead {
+  font-weight: bold;
+  background-color: rgb(139, 145, 160);
+  color: var(--bg);
+}
+
+.table td {
+  padding: 10px;
+}
+
+.user {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.userImage {
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #cacaca;
+  box-shadow: 0 4px 4px 0 rgba(152, 152, 152, 0.2),
+    0 2px 16px 0 rgba(9, 9, 10, 0.19);
+}
+.buttons {
+  display: flex;
+  gap: 10%;
+}
+
+.button {
+  padding: 5px 10px;
+  border: none;
+  width: 60px;
+  border-radius: 5px;
+}
+ .delete {
+  background: linear-gradient(45deg, rgba(255, 0, 0, 1) 0%, rgba(255, 70, 70, 1) 56%, rgba(255, 90, 90, 1) 100%);
+}
+
+@media (max-width: 768px) {
+    .container {
+        font-size: small;
+    }
+    
+}

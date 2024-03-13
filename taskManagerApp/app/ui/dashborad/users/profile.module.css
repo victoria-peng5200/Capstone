@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  flex-direction: row;
+}
+
+@media (max-width: 750px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+.infoContainer {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #005dc1;
+  height: max-content;
+}
+
+.imgContainer {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.formContainer {
+  font-weight: bold;
+  flex: 3;
+  background-color: var(--bg);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input,
+.form textarea,
+.form select {
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--bg);
+  color: var(--textSoft);
+  margin: 10px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form label {
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.form button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 15px;
+  background: var(--bg-main-orange);
+  color: var(--bg);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
