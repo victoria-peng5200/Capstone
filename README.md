@@ -8,8 +8,8 @@ AUTH_URL=http://localhost:3000/api/auth
 Here is Login account:
 
 Student Login user name: VICTORIA PENG
-Student Login password: 123
+ password: 123
 
 Login account:
 Admin Login user name: Geoffrey Vanderburg
-Admin Login password: 123
+ password: 123
